@@ -1,0 +1,64 @@
+*/
+
+
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #333;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #000;
+}
+
+.arrow.left {
+  left: 10px;
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+}
+
+.arrow.right {
+  right: 10px;
+  clip-path: polygon(0 50%, 100% 0, 100% 100%);
+}
+
+/* .car-img{
+ height: 100px;
+ width: 99px;
+} */
+.img{
+  height: 45%;
+  width: 100%;
+  justify-content: center;
+}
